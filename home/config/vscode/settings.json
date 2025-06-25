@@ -1,0 +1,130 @@
+{
+  // Editor
+  "editor.fontFamily": "JetBrainsMono NFM",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.minimap.enabled": false,
+  "editor.linkedEditing": true,
+  "editor.accessibilitySupport": "off",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.rulers": [80],
+
+  // Explorer
+  "explorer.compactFolders": false,
+  "explorer.sortOrder": "filesFirst",
+
+  // Terminal
+  "terminal.explorerKind": "external",
+  "terminal.integrated.fontFamily": "JetBrainsMono NFM",
+
+  // Workbench
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.activityBar.location": "top",
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Fleet Purple",
+
+  "workbench.colorCustomizations": {
+    "editorRuler.foreground": "#2d2c31"
+  },
+
+  // Material Icon Theme
+  "material-icon-theme.folders.theme": "classic",
+  "material-icon-theme.folders.color": "#03d36d",
+
+  // More
+  "files.associations": {
+    "*.tmpl": "html"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.openRepositoryInParentFolders": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "notebook.stickyScroll.enabled": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "go": false,
+    "sql": true,
+    "cpp": true,
+    "csharp": false
+  },
+  "window.customTitleBarVisibility": "auto",
+  "makefile.configureOnOpen": true,
+
+  // Remote - SSH
+  "remote.SSH.remoteServerListenOnSocket": true,
+  "remote.SSH.remotePlatform": {
+    "192.168.64.8": "linux",
+    "192.168.64.9": "linux"
+  },
+
+  // Oracle SQL Developer
+  "oracledevtools.connectionConfiguration.configFilesFolder": "/Users/marcusgeorgievski/Oracle/network/admin",
+  "[oraclesql]": {
+    "editor.suggest.showSnippets": true,
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    }
+  },
+  "oracledevtools.connectionConfiguration.walletFileFolder": "/Users/marcusgeorgievski/Oracle/network/admin",
+  "oracledevtools.bookmarkFileFolder": "/Users/marcusgeorgievski/Oracle/oracle.oracledevtools",
+  "oracledevtools.download.otherFolder": "/Users/marcusgeorgievski/downloads",
+  "oracledevtools.defaultConnection": "DBS",
+  "oracledevtools.connections": [
+    {
+      "authenticationType": 2,
+      "dBAPrivilege": "None",
+      "userID": "DBS501_243NZA08",
+      "passwordSaved": true,
+      "dataSource": "myoracle12c.senecacollege.ca:1521/oracle12c",
+      "connectionType": 2,
+      "databaseHostName": "myoracle12c.senecacollege.ca",
+      "databasePortNumber": "1521",
+      "databaseServiceName": "oracle12c",
+      "tnsAdmin": "/Users/marcusgeorgievski/Oracle/network/admin",
+      "name": "DBS",
+      "color": "024aea",
+      "currentSchema": "",
+      "addSettingsScopeToConnectionName": false,
+      "addCurrentSchemaToConnectionName": false,
+      "filters": [],
+      "useCompatibleNamesDirectoryPath": true,
+      "passwordStore": "Secret Storage"
+    }
+  ],
+  "liveServer.settings.donotShowInfoMsg": true,
+  "parallels-desktop.extension.path": "/Users/marcusgeorgievski/.parallels-desktop-vscode",
+  "parallels-desktop.prlctl.path": "/usr/local/bin/prlctl",
+  "parallels-desktop.brew.path": "/opt/homebrew/bin/brew",
+  "parallels-desktop.git.path": "/usr/bin/git",
+  "zig.zls.enabled": "on",
+  "workbench.startupEditor": "none",
+
+  // "emmet.includeLanguages": {
+  // "javascript": "javascriptreact",
+  // "typescript": "typescriptreact"
+  // "javascriptreact": "html"
+  // }
+
+  // Go
+  "go.formatTool": "gofmt",
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  }
+  // "[go]": {
+  //   "editor.formatOnSave": true,
+  //   "editor.codeActionsOnSave": {
+  //     "source.organizeImports": "always"
+  //   }
+  // },
+  // "[go.mod]": {
+  //   "editor.formatOnSave": true,
+  //   "editor.codeActionsOnSave": {
+  //     "source.organizeImports": "always"
+  //   }
+  // }
+}

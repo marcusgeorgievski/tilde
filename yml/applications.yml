@@ -1,0 +1,44 @@
+manual:
+  - magnet
+  - monitor-control-lite
+  - horo
+  - screen-studio
+  - word
+  - excel
+  - powerpoint
+
+brew:
+  formulae:
+    - gcc
+    - go
+    - tree
+    - postgresql
+    - sqlite
+    - mysql
+    - jq
+    - wget
+    - neofetch
+    - tmux
+    - python
+    - hadolint
+    - zsh-autosuggestions
+    - zsh-syntax-highlighting
+
+  casks:
+    - bitwarden
+    - discord
+    - docker
+    - dropbox
+    - google-chrome
+    - maccy
+    - shortcat
+    - spotify
+    - steam
+    - sublime-text
+    - visual-studio-code
+    - whatsapp
+
+others:
+  - node
+  - pnpm
+  - parallels

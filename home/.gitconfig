@@ -1,0 +1,20 @@
+[user]
+	email = marcusgeorgievski@outlook.com
+	name = marcusgeorgievski
+
+[init]
+    defaultBranch = main
+
+[alias]
+
+	# Concise status
+	s = status -s
+
+	# Log with date
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+
+	# Show the diff between the latest commit and the current state.
+	d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
+
+	# Show the user email for the current repository.
+	whoami = config user.email
