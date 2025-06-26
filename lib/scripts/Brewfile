@@ -1,0 +1,45 @@
+# Brewfile - Package manager configuration for macOS
+
+# brew bundle install - Installs everything listed in your Brewfile
+# brew bundle dump - Creates a Brewfile from currently installed packages
+# brew bundle check - Checks if everything in Brewfile is installed
+# brew bundle cleanup - Uninstalls packages not listed in Brewfile
+# brew bundle list - Lists all dependencies in Brewfile
+
+
+# Formulae - Command line tools and libraries
+brew "gcc"
+brew "go"
+brew "tree"
+brew "jq"
+brew "wget"
+brew "stow"
+brew "neofetch"
+brew "tmux"
+brew "python"
+brew "hadolint"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+brew "postgresql"
+brew "mysql"
+brew "sqlite"
+brew "mas"
+
+# Casks - GUI applications
+cask "google-chrome"
+cask "bitwarden"
+cask "dropbox"
+cask "visual-studio-code"
+cask "discord"
+cask "maccy"
+cask "shortcat"
+cask "spotify"
+cask "steam"
+cask "sublime-text"
+cask "whatsapp"
+
+# App Store apps
+mas "Magnet", id: 441258766
+mas "MonitorControl Lite", id: 1595464182
+mas "Horo - Timer for Menu Bar", id: 1437226581
+mas "Pages", id: 409201541

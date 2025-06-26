@@ -1,8 +1,13 @@
-# Generating a new SSH key and adding it to the ssh-agent
+# GitHub SSH
+
+1. Generate a new SSH key and add it to the ssh-agent
+2. Add a new SSH key to your GitHub account
+
+## 1. Generating a new SSH key and adding it to the ssh-agent
 
 [GitHub Documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-## Steps
+### Steps
 
 1. **Create new SSH key using the provided email as a label:**
 
@@ -42,7 +47,7 @@ eval "$(ssh-agent -s)"
 ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 ```
 
-# Adding a new SSH key to your GitHub account
+## 2. Adding a new SSH key to your GitHub account
 
 [GitHub Documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 

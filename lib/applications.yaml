@@ -1,8 +1,12 @@
+# s - setup message
+# p - password required
+
 manual:
   - magnet
   - monitor-control-lite
   - horo
   - screen-studio
+  - Docker
   - word
   - excel
   - powerpoint
@@ -12,30 +16,31 @@ brew:
     - gcc
     - go
     - tree
-    - postgresql
-    - sqlite
-    - mysql
     - jq
     - wget
+    - stow
     - neofetch
     - tmux
     - python
     - hadolint
     - zsh-autosuggestions
-    - zsh-syntax-highlighting
+    - zsh-syntax-highlighting # s
+    - postgresql # s
+    - mysql # s
+    - sqlite
 
   casks:
-    - bitwarden
-    - discord
-    - docker
-    - dropbox
     - google-chrome
+    - bitwarden
+    - dropbox
+    - visual-studio-code
+    - docker
+    - discord
     - maccy
     - shortcat
     - spotify
     - steam
     - sublime-text
-    - visual-studio-code
     - whatsapp
 
 others:
